@@ -1,4 +1,4 @@
-module ecs
+module vecs
 
 interface IResource {
 	name string
