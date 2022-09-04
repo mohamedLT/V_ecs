@@ -12,7 +12,7 @@ Here is an example
 
 import gg
 import gx
-import mohamedLT.vecs as ecs
+import mohamedlt.vecs as ecs
 
 const (
 	win_width  = 600
