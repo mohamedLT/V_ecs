@@ -116,7 +116,7 @@ pub mut:
 	comps []IComp
 }
 
-pub fn (e Entity) get_comp<T>() ?&T {
+pub fn (e Entity) get_comp<T>() !&T {
 	for c in e.comps {
 		if c is T {
 			return c
